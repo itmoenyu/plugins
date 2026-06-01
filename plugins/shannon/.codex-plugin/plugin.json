@@ -1,0 +1,51 @@
+{
+  "name": "shannon",
+  "version": "0.1.0",
+  "description": "Shannon - AI 驱动的自主渗透测试工具，用于 Web 应用和 API 的白盒安全分析",
+  "author": {
+    "name": "Keygraph",
+    "email": "shannon@keygraph.io",
+    "url": "https://keygraph.io"
+  },
+  "homepage": "https://github.com/KeygraphHQ/shannon",
+  "repository": "https://github.com/KeygraphHQ/shannon",
+  "license": "AGPL-3.0",
+  "keywords": [
+    "security",
+    "pentest",
+    "penetration-testing",
+    "vulnerability-assessment",
+    "ai",
+    "white-box",
+    "owasp",
+    "exploitation",
+    "appsec"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Shannon - AI Pentester",
+    "shortDescription": "AI 自主渗透测试：分析源码，识别攻击面，执行真实漏洞利用并生成 PoC 报告",
+    "longDescription": "Shannon 是 Keygraph 开发的 AI 自主渗透测试工具，专为 Web 应用和 API 设计。它通过白盒方式分析你的源代码，识别潜在攻击向量，然后使用浏览器自动化和命令行工具对运行中的应用执行真实漏洞利用（注入攻击、认证绕过、SSRF、XSS）。只有具备可复现 PoC 的漏洞才会出现在最终报告中。覆盖 OWASP 核心漏洞类别：注入、XSS、SSRF、认证/授权缺陷。支持全自主运行，包括 2FA/TOTP 登录、并行漏洞分析、Docker 化部署。",
+    "developerName": "Keygraph",
+    "category": "Security",
+    "capabilities": [
+      "Interactive",
+      "Write",
+      "Read"
+    ],
+    "websiteURL": "https://keygraph.io",
+    "privacyPolicyURL": "https://keygraph.io/privacy",
+    "termsOfServiceURL": "https://github.com/KeygraphHQ/shannon/blob/main/LICENSE",
+    "defaultPrompt": [
+      "对当前项目执行一次 Shannon 渗透测试",
+      "分析代码中的认证和授权漏洞",
+      "对 API 端点执行注入攻击测试"
+    ],
+    "brandColor": "#6C5CE7",
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png",
+    "screenshots": [
+      "./assets/screenshot1.png"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+﻿Shannon Plugin for Codex
+Copyright (c) 2026 Keygraph
+
+This plugin is released under the AGPL-3.0 license, matching the Shannon project license.
+See https://github.com/KeygraphHQ/shannon/blob/main/LICENSE for full terms.

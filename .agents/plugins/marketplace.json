@@ -205,7 +205,9 @@
       "policy": {
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL",
-        "products": ["CODEX"]
+        "products": [
+          "CODEX"
+        ]
       },
       "category": "Developer Tools"
     },
@@ -218,7 +220,9 @@
       "policy": {
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL",
-        "products": ["CODEX"]
+        "products": [
+          "CODEX"
+        ]
       },
       "category": "Developer Tools"
     },
@@ -325,7 +329,9 @@
       "policy": {
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL",
-        "products": ["CODEX"]
+        "products": [
+          "CODEX"
+        ]
       },
       "category": "Developer Tools"
     },
@@ -338,7 +344,9 @@
       "policy": {
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL",
-        "products": ["CODEX"]
+        "products": [
+          "CODEX"
+        ]
       },
       "category": "Developer Tools"
     },
@@ -351,7 +359,9 @@
       "policy": {
         "installation": "AVAILABLE",
         "authentication": "ON_USE",
-        "products": ["CODEX"]
+        "products": [
+          "CODEX"
+        ]
       },
       "category": "Developer Tools"
     },
@@ -364,7 +374,9 @@
       "policy": {
         "installation": "AVAILABLE",
         "authentication": "ON_USE",
-        "products": ["CODEX"]
+        "products": [
+          "CODEX"
+        ]
       },
       "category": "Developer Tools"
     },
@@ -377,7 +389,9 @@
       "policy": {
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL",
-        "products": ["CODEX"]
+        "products": [
+          "CODEX"
+        ]
       },
       "category": "Developer Tools"
     },
@@ -402,7 +416,9 @@
       "policy": {
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL",
-        "products": ["CODEX"]
+        "products": [
+          "CODEX"
+        ]
       },
       "category": "Research"
     },
@@ -415,7 +431,9 @@
       "policy": {
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL",
-        "products": ["CODEX"]
+        "products": [
+          "CODEX"
+        ]
       },
       "category": "Developer Tools"
     },
@@ -428,7 +446,9 @@
       "policy": {
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL",
-        "products": ["CODEX"]
+        "products": [
+          "CODEX"
+        ]
       },
       "category": "Developer Tools"
     },
@@ -453,7 +473,9 @@
       "policy": {
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL",
-        "products": ["CODEX"]
+        "products": [
+          "CODEX"
+        ]
       },
       "category": "Design"
     },
@@ -466,7 +488,9 @@
       "policy": {
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL",
-        "products": ["CODEX"]
+        "products": [
+          "CODEX"
+        ]
       },
       "category": "Developer Tools"
     },
@@ -1439,7 +1463,9 @@
       "policy": {
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL",
-        "products": ["CODEX"]
+        "products": [
+          "CODEX"
+        ]
       },
       "category": "Design"
     },
@@ -1476,7 +1502,9 @@
       "policy": {
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL",
-        "products": ["CODEX"]
+        "products": [
+          "CODEX"
+        ]
       },
       "category": "Security"
     },
@@ -1501,7 +1529,9 @@
       "policy": {
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL",
-        "products": ["CODEX"]
+        "products": [
+          "CODEX"
+        ]
       },
       "category": "Engineering"
     },
@@ -1792,6 +1822,18 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Developer Tools"
+    },
+    {
+      "name": "shannon",
+      "source": {
+        "source": "local",
+        "path": "./plugins/shannon"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Security"
     }
   ]
 }
